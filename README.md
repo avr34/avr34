@@ -29,6 +29,12 @@ I'm a **Computer Engineering** student at NJIT with a minor in **Data Analytics*
 
 -----
 
+## Resume
+
+Find my resume [here!][05]
+
+-----
+
 ## Connect with Me
 
 - **LinkedIn** <https://www.linkedin.com/in/avr33>
@@ -39,3 +45,4 @@ I'm a **Computer Engineering** student at NJIT with a minor in **Data Analytics*
 [02]: https://github.com/SolarVisionMower/SolarVision/blob/dev/PCBDesign/Hardware/STM32N6_Board/schematic.pdf
 [03]: https://github.com/avr34/ECE381-Final
 [04]: https://github.com/avr34/NeuralNet
+[05]: https://github.com/avr34/Resume/blob/main/Resume.pdf
