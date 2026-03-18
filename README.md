@@ -37,7 +37,8 @@ Find my resume [here!][05]
 
 ## Connect with Me
 
-- **LinkedIn** <https://www.linkedin.com/in/avr33>
+- **LinkedIn:** <https://www.linkedin.com/in/avr33>
+- **Website:** <https://avr34.github.io/>
 
 <!-- Links -->
 
