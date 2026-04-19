@@ -7,6 +7,7 @@ I'm a **Computer Engineering** student at NJIT with a minor in **Data Analytics*
 ## What I'm working on
 
 - [**The SolarVision Mower**][01]: An autonomous, solar-powered lawnmower utilizing YOLOv8 Segmentation, LiDAR, and Ultra Wideband Positioning for intelligent navigation and obstacle avoidance. Utilizing an STM32, ESP32, FreeRTOS for concurrent tasks, and custom firmware for both.
+- [**USB Logic Analyzer**][06]: A custom USB logic analyzer, built around an **STM32F446** microcontroller. Features UART, SPI, I2C, and CAN signal decoding, as well as waveform plotting, using Python and Go.
 - [**High-Speed PCB Design**][02]: Currently architecting a 6-layer board for the **STM32N657I0H3Q** microcontroller. It boasts a 512Mb external XSPI Flash memory, 128Mb SDRAM via the FMC interface, MIPI CSI, and a plethora of other peripherals (4 UARTs, 2 SPIs, 2 I2Cs, Timers, etc.)
 
 ## Past Projects
@@ -47,3 +48,4 @@ Find my resume [here!][05]
 [03]: https://github.com/avr34/ECE381-Final
 [04]: https://github.com/avr34/NeuralNet
 [05]: https://github.com/avr34/Resume/blob/main/Resume.pdf
+[06]: https://github.com/ragusauce4357/ECE692-Final-Project
