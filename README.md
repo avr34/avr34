@@ -6,6 +6,7 @@ I'm a **Computer Engineering** student at NJIT with a minor in **Data Analytics*
 
 ## What I'm working on
 
+- [**NJIT Solar Car CAN IO board**][07]: Designing and writing firmware for an STM32G0B1 CAN IO board. Details coming soon!
 - [**High-Speed PCB Design**][02]: Architected a 6-layer board for the **STM32N657I0H3Q** microcontroller. It boasts a 512Mb external XSPI Flash memory, 128Mb SDRAM via the FMC interface, MIPI CSI, and a plethora of other peripherals (4 UARTs, 2 SPIs, 2 I2Cs, Timers, etc.)
     - Originally intended for use on the [SolarVision Mower][01], but we ultimately didn't have time to get all the code functioning.
     - Currently working on unit tests for all supported peripherals.
@@ -50,3 +51,4 @@ Find my resume [here!][05]
 [04]: https://github.com/avr34/NeuralNet
 [05]: https://github.com/avr34/Resume/blob/main/Resume.pdf
 [06]: https://github.com/ragusauce4357/ECE692-Final-Project
+[07]: https://github.com/NJIT-Solar-Car/can-io-board
