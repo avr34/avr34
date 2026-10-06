@@ -1,0 +1,133 @@
+file /home/bumpy/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = build/x86/gem5.build/scons_config)
+scons: Configure: Checking for linker -Wl,--as-needed support... 
+build/x86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_0.cc <-
+  |int main(int, char *[]) { return 0; }
+(B[m [     CXX] [33mx86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_0[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_0_a99c4d31ee340b3b628d4db8961d3f04(B[m
+scons: Configure: yes
+
+
+file /home/bumpy/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = build/x86/gem5.build/scons_config)
+scons: Configure: Checking for compiler -gz support... 
+build/x86/gem5.build/scons_config/conftest_342d5457cbf4639ef3e0d4fb7b8ef89b_0.cc <-
+  |// CheckCxxFlag DO NOTHING
+(B[m [     CXX] [33mx86/gem5.build/scons_config/conftest_342d5457cbf4639ef3e0d4fb7b8ef89b_0[33m[1m.cc[34m[1m -> [33m[1m_a6ae99236cd113cda64a357b1ba56e76.o(B[m
+scons: Configure: yes
+
+scons: Configure: Checking for linker -gz support... 
+build/x86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_1.cc <-
+  |int main(int, char *[]) { return 0; }
+(B[m [     CXX] [33mx86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_1[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_da935ab7a2c376c10f2ce1130ab88c51_1_edda7043ff88127f435c07331c1a1350(B[m
+scons: Configure: yes
+
+
+file /home/bumpy/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = build/x86/gem5.build/scons_config)
+
+file /home/bumpy/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = build/x86/gem5.build/scons_config)
+scons: Configure: Checking for C header file Python.h... 
+build/x86/gem5.build/scons_config/conftest_6f79fff2b5fa95157216534d203df494_0.c <-
+  |
+  |#include <Python.h>
+  |
+  |
+(B[m [      CC] [33mx86/gem5.build/scons_config/conftest_6f79fff2b5fa95157216534d203df494_0[33m[1m.c[34m[1m -> [33m[1m_8c2d4efd07171fff31d2de142d498db6.o(B[m
+scons: Configure: yes
+
+scons: Configure: Checking Python version... 
+build/x86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0.cc <-
+  |
+  |#include <pybind11/embed.h>
+  |
+  |int
+  |main(int argc, char **argv) {
+  |    pybind11::scoped_interpreter guard{};
+  |    pybind11::exec(
+  |        "import sys\n"
+  |        "vi = sys.version_info\n"
+  |        "sys.stdout.write('%i.%i.%i' % (vi.major, vi.minor, vi.micro));\n");
+  |    return 0;
+  |}
+  |    
+(B[m [     CXX] [33mx86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0_eaf02468b47fd205186a45b3674367d5(B[m
+build/x86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0_eaf02468b47fd205186a45b3674367d5 > build/x86/gem5.build/scons_config/conftest_2176b2d932a60acfa5b4079f6e5ab92b_0_eaf02468b47fd205186a45b3674367d5.out
+scons: Configure: 3.12.3
+
+
+file /home/bumpy/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = build/x86/gem5.build/scons_config)
+scons: Configure: Checking for accept(0,0,0) in C++ library None... 
+build/x86/gem5.build/scons_config/conftest_af8423c78aecfef602aceff7a3b40c1c_0.cpp <-
+  |
+  |
+  |#include "sys/socket.h"
+  |
+  |int
+  |main() {
+  |  accept(0,0,0);
+  |return 0;
+  |}
+  |
+(B[m [     CXX] [33mx86/gem5.build/scons_config/conftest_af8423c78aecfef602aceff7a3b40c1c_0[33m[1m.cpp[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_af8423c78aecfef602aceff7a3b40c1c_0_963d85bee8014b20c8141696f44ead54(B[m
+scons: Configure: yes
+
+scons: Configure: Checking for zlibVersion() in C++ library z... 
+build/x86/gem5.build/scons_config/conftest_127f08e7208dda7ee2cdf0b86065031e_0.cpp <-
+  |
+  |
+  |#include "zlib.h"
+  |
+  |int
+  |main() {
+  |  zlibVersion();
+  |return 0;
+  |}
+  |
+(B[m [     CXX] [33mx86/gem5.build/scons_config/conftest_127f08e7208dda7ee2cdf0b86065031e_0[33m[1m.cpp[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_127f08e7208dda7ee2cdf0b86065031e_0_bd6c5c9912fdad6b6dfba694e62cfb4c(B[m
+scons: Configure: yes
+
+
+file /home/bumpy/gem5/site_scons/gem5_scons/configure.py,line 171:
+	Configure(confdir = build/x86/gem5.build/scons_config)
+scons: Configure: Checking for C library tcmalloc_minimal... 
+build/x86/gem5.build/scons_config/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+(B[m [      CC] [33mx86/gem5.build/scons_config/conftest_df286a1d2f67e69d030b4eff75ca7e12_0[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_df286a1d2f67e69d030b4eff75ca7e12_0_87d8c3a4aa8d0d0be0967bc45ca26d2b(B[m
+/usr/bin/ld: cannot find -ltcmalloc_minimal: No such file or directory
+collect2: error: ld returned 1 exit status
+scons: Configure: no
+
+scons: Configure: Checking for C library tcmalloc... 
+build/x86/gem5.build/scons_config/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+(B[m [      CC] [33mx86/gem5.build/scons_config/conftest_df286a1d2f67e69d030b4eff75ca7e12_1[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1mx86/gem5.build/scons_config/conftest_df286a1d2f67e69d030b4eff75ca7e12_1_55b84b39ebeda58b7efa820142fb5d52(B[m
+/usr/bin/ld: cannot find -ltcmalloc: No such file or directory
+collect2: error: ld returned 1 exit status
+scons: Configure: no
+
+
